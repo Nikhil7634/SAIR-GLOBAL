@@ -1,0 +1,29 @@
+.main-container{
+    min-height: 100vh;
+    padding-top: 5%;
+    background: url("../images/background_03_home2.jpg");
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+.main-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.46);
+    z-index: 1;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+@media(max-width:600px){
+    .main-container{
+        padding-top: 25%;
+    }
+
+}
