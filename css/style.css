@@ -27,10 +27,22 @@ html{
     }
      
     .infrastructure{
+        width: 100% !important;
+    }
+    .infrastructure > div{
         width: 100%;
     }
+     
     .infrastructure-section{
-        padding: 0;
+        padding: 0 !important;
+    }
+    .incontent h1{
+        width: 100%;
+        text-align: center !important;
+    }
+    .incontent p{
+        width: 100%;
+        text-align: center !important;
     }
 
 }
