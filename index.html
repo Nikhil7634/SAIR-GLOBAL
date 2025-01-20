@@ -31,8 +31,35 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SAIRS GLOBAL",
+        "url": "https://www.sairsglobal.com",
+        "logo": "https://www.sairsglobal.com/images/logo.jpg",
+        "description": "SAIRS GLOBAL empowers businesses with innovative global solutions.",
+        "sameAs": [
+          "https://www.facebook.com/sairsglobal",
+          "https://www.linkedin.com/company/sairsglobal",
+          "https://twitter.com/sairsglobal"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-800-123-4567",
+          "contactType": "Customer Support"
+        }
+      }
+      </script>
   </head>
   <body>
+    <div style="display: none;" class="internal-links space-y-3">
+      <a href="/about" class="text-indigo-600 hover:underline">Learn more About Us</a>
+      <a href="/services" class="text-indigo-600 hover:underline">Explore our Services</a>
+      <a href="/contact" class="text-indigo-600 hover:underline">Get in Touch</a>
+      <a href="/blog" class="text-indigo-600 hover:underline">Read our Blog</a>
+    </div>
+    
     <nav
       class="bg-white -:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 -:border-gray-600"
     >

@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^sairsglobal\.com [NC]
+RewriteRule ^(.*)$ https://www.sairsglobal.com/$1 [L,R=301]
+
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.sairsglobal\.com [NC]
+RewriteRule ^(.*)$ https://sairsglobal.com/$1 [L,R=301]
